@@ -6,7 +6,7 @@ DISCORD_TOKEN: str = os.environ["DISCORD_TOKEN"]
 # ── AI API (OpenAI-compatible) ─────────────────────────────────────────────────
 AI_API_KEY: str = os.environ["AI_API_KEY"]        # Your SeptorLabs key
 AI_BASE_URL: str = os.environ.get(                 # e.g. https://api.septorlabs.com
-    "AI_BASE_URL", "https://api.septorlabs.com/v1"
+    "AI_BASE_URL", "https://api.septorlabs.com"
 )
 AI_MODEL: str = os.environ.get("AI_MODEL", "deepseek-v4-flash")  # swap for whatever model they expose
 
