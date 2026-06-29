@@ -9,7 +9,7 @@ DISCORD_TOKEN = os.environ["DISCORD_TOKEN"]
 
 # Channel IDs where Moon Man randomly speaks up (add your own)
 RANDOM_MESSAGE_CHANNELS: list[int] = [
-    # 1423415460665360404
+    1423415460665360404
 ]
 
 GREETINGS = [
