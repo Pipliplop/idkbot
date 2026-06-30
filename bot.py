@@ -18,7 +18,7 @@ OWNER_ID = 1399047867766673609
 recent_active_users: dict[int, list[int]] = {}
 
 # Persistent log of anonymous /moonmessage sends — owner-only access
-ANON_LOG_FILE = "anon_message_log.json"
+ANON_LOG_FILE = "/data/anon_message_log.json"
 
 
 def load_anon_log() -> list[dict]:
